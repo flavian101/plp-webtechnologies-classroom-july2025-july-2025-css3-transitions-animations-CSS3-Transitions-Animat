@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flavian’s Interactive Graphics Playground</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Flavian's Interactive Graphics Playground</h1>
+    </header>
+
+    <main>
+      <!-- Part 1: CSS Transitions & Animations -->
+      <section id="part1">
+        <h2>Part 1: CSS Transitions &amp; Animations</h2>
+        <button class="hover-btn">Hover Me</button>
+        <div class="fade-box">Fade Box</div>
+        <div class="spin-box">Spin Me</div>
+      </section>
+
+      <!-- Part 2: JavaScript Functions — Scope, Parameters & Return Values -->
+      <section id="part2">
+        <h2>Part 2: JavaScript Functions</h2>
+        <p>Compute factorial of a number and display it:</p>
+        <input
+          type="number"
+          id="factorial-input"
+          placeholder="Enter n"
+          min="0"
+        />
+        <button id="compute-btn">Compute Factorial</button>
+        <div id="factorial-result"></div>
+      </section>
+
+      <!-- Part 3: Combining CSS Animations with JavaScript -->
+      <section id="part3">
+        <h2>Part 3: CSS Animations + JS Triggers</h2>
+        <!-- Card Flip -->
+        <div class="card" id="flip-card">
+          <div class="card-face front">Front</div>
+          <div class="card-face back">Back</div>
+        </div>
+        <button id="flip-btn">Flip Card</button>
+
+        <!-- Popup/Modal -->
+        <button id="open-modal-btn">Open Modal</button>
+        <div class="modal" id="my-modal">
+          <div class="modal-content">
+            <span class="close-btn" id="close-modal-btn">&times;</span>
+            <p>Hey Flavian, welcome to your modal!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
